@@ -1,4 +1,4 @@
-package example2.factory;
+package factory;
 
 public class IPad implements AppleStoreInteface{
 	

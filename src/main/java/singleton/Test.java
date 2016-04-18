@@ -1,4 +1,4 @@
-package example1;
+package singleton;
 
 /**
  * 这个测试例子，我们分别测试了饿汉模式和懒汉模式

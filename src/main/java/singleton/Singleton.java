@@ -1,4 +1,4 @@
-package example1;
+package singleton;
 /**
  * 单例模式(饿汉模式)
  * 有些对象只需要一个就足够了

@@ -1,4 +1,4 @@
-package example1;
+package singleton;
 
 /**
  * 单例模式(懒汉模式)

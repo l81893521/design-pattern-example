@@ -1,4 +1,4 @@
-package example2.factory;
+package factory;
 
 /**
  * 一个模拟苹果商店
