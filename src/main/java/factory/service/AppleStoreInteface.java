@@ -1,4 +1,4 @@
-package factory;
+package factory.service;
 
 /**
  * 一个模拟苹果商店

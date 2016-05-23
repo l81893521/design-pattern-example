@@ -1,4 +1,6 @@
-package factory;
+package factory.service.impl;
+
+import factory.service.AppleStoreInteface;
 
 public class IPhone implements AppleStoreInteface{
 	

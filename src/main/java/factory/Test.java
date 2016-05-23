@@ -1,5 +1,11 @@
 package factory;
 
+import factory.factory.DigitalFactory;
+import factory.service.AppleStoreInteface;
+import factory.service.impl.IPad;
+import factory.service.impl.IPhone;
+import factory.service.impl.Macbook;
+
 /**
  * 工厂模式
  * @author zhangjiawei

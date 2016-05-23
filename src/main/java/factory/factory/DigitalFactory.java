@@ -1,4 +1,9 @@
-package factory;
+package factory.factory;
+
+import factory.service.AppleStoreInteface;
+import factory.service.impl.IPad;
+import factory.service.impl.IPhone;
+import factory.service.impl.Macbook;
 
 /**
  * 电子工厂
