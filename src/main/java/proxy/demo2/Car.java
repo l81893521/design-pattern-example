@@ -1,4 +1,4 @@
-package proxy.demo1;
+package proxy.demo2;
 
 import java.util.Random;
 
