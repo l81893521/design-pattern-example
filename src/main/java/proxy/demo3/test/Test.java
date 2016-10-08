@@ -17,8 +17,14 @@ public class Test {
 		Car car = new Car();
 		
 		Class<?> clazz = car.getClass();
-		
-		Moveable moveable = (Moveable) Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), new TimeHandler(clazz));
+		/*
+		 * 动态生成代理类
+		 * @param loader 类加载器
+		 * @param interfaces 实现的接口
+		 * @param h 实现的处理器
+		 * @return 动态产生的代理对象
+		 */
+		Moveable moveable = (Moveable) Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), new TimeHandler(car));
 		moveable.move();
 		
 	}
